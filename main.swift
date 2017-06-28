@@ -1,0 +1,16 @@
+import Foundation
+
+let d1 = Deck(mixed: true)
+print(d1.description)
+d1.draw()
+d1.draw()
+d1.draw()
+d1.draw()
+print(d1.description)
+print("Outs: ", d1.Outs)
+print("Discards: ", d1.Discards)
+d1.fold(c: d1.Outs[0])
+d1.fold(c: d1.Outs[0])
+d1.fold(c: d1.Outs[0])
+print("Outs: ", d1.Outs)
+print("Discards: ", d1.Discards)
