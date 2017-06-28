@@ -1,4 +1,4 @@
-* Swift Deck of cards project *
+\* Swift Deck of cards project *
 
 This project is for learning OOP syntax in swift.
 	
